@@ -1,0 +1,88 @@
+.buy-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.buy-box__nome {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--dark-gray-2);
+  line-height: 1.2;
+}
+
+.buy-box__ref {
+  font-size: 12px;
+  color: var(--light-gray);
+}
+
+.buy-box__avaliacao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buy-box__estrelas {
+  color: var(--warning);
+  font-size: 18px;
+}
+
+.buy-box__nota {
+  background: var(--warning);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.buy-box__reviews {
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
+.buy-box__precos {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.buy-box__preco {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--dark-gray-2);
+}
+
+.buy-box__preco-antigo {
+  font-size: 16px;
+  color: var(--light-gray);
+  text-decoration: line-through;
+}
+
+.buy-box__descricao h4 {
+  font-size: 14px;
+  color: var(--light-gray);
+  margin-bottom: 6px;
+}
+
+.buy-box__descricao p {
+  font-size: 14px;
+  color: var(--dark-gray-2);
+  line-height: 1.5;
+}
+
+.buy-box__comprar {
+  width: 220px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  background: var(--warning);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.buy-box__comprar:hover {
+  filter: brightness(0.95);
+}

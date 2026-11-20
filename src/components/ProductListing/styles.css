@@ -1,0 +1,11 @@
+.product-listing {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  .product-listing {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

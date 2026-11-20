@@ -1,0 +1,132 @@
+.listagem {
+  padding: 40px 100px;
+}
+
+.listagem__topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  color: var(--dark-gray-2);
+}
+
+.listagem__ordenar-linha {
+  display: flex;
+  gap: 12px;
+}
+
+.listagem__ordenar {
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid var(--light-gray-2);
+  border-radius: 4px;
+  background: var(--white);
+  font-size: 14px;
+}
+
+.listagem__botao-filtro,
+.listagem__fechar {
+  display: none;
+}
+
+.listagem__botao-filtro {
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 4px;
+  background: var(--primary);
+  color: var(--white);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.listagem__fechar {
+  float: right;
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.listagem__corpo {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.listagem__filtros {
+  width: 308px;
+  flex-shrink: 0;
+  background: var(--white);
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.listagem__filtros h3 {
+  font-size: 16px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--light-gray-2);
+}
+
+.listagem__produtos {
+  flex: 1;
+  min-width: 0;
+}
+
+.listagem__produtos .product-listing {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 900px) {
+  .listagem {
+    padding: 24px 20px;
+  }
+
+  .listagem__topo {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .listagem__ordenar-linha .listagem__ordenar {
+    flex: 1;
+  }
+
+  .listagem__corpo {
+    flex-direction: column;
+  }
+
+  .listagem__produtos {
+    width: 100%;
+  }
+
+  .listagem__produtos .product-listing {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .listagem__filtros {
+    display: none;
+  }
+
+  .listagem__filtros.aberto {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    width: 100%;
+    overflow-y: auto;
+    border-radius: 0;
+  }
+
+  .listagem__botao-filtro {
+    display: flex;
+  }
+
+  .listagem__fechar {
+    display: block;
+  }
+}
