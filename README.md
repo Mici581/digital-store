@@ -4,6 +4,8 @@ Projeto final de Front-end Digital College: uma loja virtual feita com React, se
 
 Protótipo base no Figma: [Acessar design](https://www.figma.com/design/nUk0ihM3x4u8JQtxUoAEJf/DRIP-STORE---DIGITAL-COLLEGE--Copy-?node-id=22-30&p=f)
 
+> 🚀 **Deploy:** [Aceder à Digital Store](https://digital-store-mu-amber.vercel.app)
+
 ## Preview
 
 ![Preview da Digital Store](public/projeto.jpg)
