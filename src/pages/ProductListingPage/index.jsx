@@ -8,7 +8,7 @@ const produtos = Array.from({ length: 9 }, (_, i) => ({
   id: i + 1,
   name: 'Tênis Nike Air Force 1 Low Since',
   image: `/NikeAirForce${(i % 3) + 1}.png`,
-  price: 239.7,
+  price: 799,
   priceDiscount: 559.3,
 }));
 
