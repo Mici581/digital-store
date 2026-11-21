@@ -38,6 +38,8 @@ Layout adaptado para celular, com grade de 2 colunas na listagem e painel de fil
     ├── components/   componentes reutilizáveis
     └── pages/        páginas e Layout
 
-## Autor
-
-Miciane Andrade
+<br>
+<br>
+<div align="center">
+  Desenvolvido por Miciane Andrade💫
+</div>
